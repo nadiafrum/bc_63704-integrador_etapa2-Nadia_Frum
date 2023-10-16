@@ -1,0 +1,243 @@
+{
+  "productos": [
+    {
+      "nombre": "Armonica Lee Oskar",
+      "foto": "img/ARMONICALEEOSKAR.jpg",
+      "detalles": "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      "precio": 250.5,
+      "stock": "4444",
+      "marca": "Lee Oskar",
+      "categoria": "Armonicas",
+      "id": 1,
+      "envio": false
+    },
+    {
+      "nombre": "Cable Textil Ernie Ball 7.5 Plug",
+      "foto": "img/CABLETEXTILERNIEBALL75MPLUG.jpg",
+      "detalles": "Quasi cupiditate quisquam facere molestiae",
+      "precio": 240.3,
+      "stock": "4",
+      "marca": "Ernie Ball",
+      "categoria": "Accesorios",
+      "id": 2,
+      "envio": true
+    },
+    {
+      "nombre": "Consola Mezcladora SKP",
+      "foto": "img/CONSOLAMEZCLADORASKP.jpg",
+      "detalles": "Saepe enim ipsa facilis velit quidem voluptatibus totam dicta",
+      "precio": 985,
+      "stock": 4,
+      "marca": "SKP",
+      "categoria": "Consolas",
+      "id": 3,
+      "envio": false
+    },
+    {
+      "nombre": "Amplificador Valvular Marshall 20 watts",
+      "detalles": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "foto": "img/MARSHALLAMPLIFICADORVALVULAR20WATTS.jpg",
+      "precio": 678,
+      "stock": 7,
+      "marca": "Marshall",
+      "categoria": "Amplificadores",
+      "id": 4,
+      "envio": true
+    },
+    {
+      "nombre": "Pedal Delay Mini Core Nux",
+      "detalles": "Facere molestiae odio neque rerum provident voluptas",
+      "foto": "img/PEDALDELAYMINICORENUX.jpg",
+      "precio": 1200,
+      "stock": 4,
+      "marca": "NUX",
+      "categoria": "Pedales",
+      "id": 5,
+      "envio": true
+    },
+    {
+      "id": 6,
+      "nombre": "Piano Electrico Medeli 3 pedales",
+      "precio": 332.22,
+      "stock": 4,
+      "marca": "Medeli",
+      "categoria": "Pianos",
+      "detalles": "Natus iure quasi cupiditate provident voluptas!",
+      "foto": "img/PIANOELECTRICOMEDELI3PEDALES.jpg",
+      "envio": true
+    },
+    {
+      "id": 7,
+      "nombre": "Redoblante Mapex Natural",
+      "precio": 333.22,
+      "stock": 2,
+      "marca": "MAPEX",
+      "categoria": "Baterias",
+      "detalles": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "foto": "img/REDOBLANTEMAPEXNATURAL.jpg",
+      "envio": false
+    },
+    {
+      "id": 8,
+      "nombre": "Auriculares Shure Estudio Profesiional",
+      "precio": "2333",
+      "stock": "2",
+      "marca": "Shure",
+      "categoria": "Accesorios",
+      "detalles": "Saepe enim ipsa facilis velit quidem voluptatibus totam dicta",
+      "foto": "img/SHUREAURICULARESTUDIOPROFESIONAL.jpg",
+      "envio": true
+    },
+    {
+      "id": 9,
+      "nombre": "Guitarra Electrica Sunburst Vintage",
+      "precio": "250000",
+      "stock": "30",
+      "marca": "Sunburst",
+      "categoria": "Guitarras",
+      "detalles": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "foto": "img/VINTAGEGUITARRAELECTRICASUNBURST.jpg",
+      "envio": true
+    },
+    {
+      "id": 10,
+      "nombre": "Platillo Zildjian FXS 10",
+      "precio": "90000",
+      "stock": "50",
+      "marca": "Zildjian",
+      "categoria": "Baterias",
+      "detalles": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "foto": "img/ZILDJIANFXS10PLATILLO10.jpg",
+      "envio": true
+    },
+    {
+      "id": 11,
+      "nombre": "fg",
+      "precio": "dgf",
+      "stock": "dfg",
+      "marca": "dfg",
+      "categoria": "dfdsg",
+      "detalles": "dfdfg",
+      "foto": "dfg",
+      "envio": true
+    }
+  ],
+  "carrito": [
+    [
+      {
+        "nombre": "Armonica Lee Oskar",
+        "foto": "img/ARMONICALEEOSKAR.jpg",
+        "detalles": "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+        "precio": 250.5,
+        "stock": "4444",
+        "marca": "Lee Oskar",
+        "categoria": "Armonicas",
+        "id": 1,
+        "envio": false
+      },
+      {
+        "nombre": "Cable Textil Ernie Ball 7.5 Plug",
+        "foto": "img/CABLETEXTILERNIEBALL75MPLUG.jpg",
+        "detalles": "Quasi cupiditate quisquam facere molestiae",
+        "precio": 240.3,
+        "stock": "4",
+        "marca": "Ernie Ball",
+        "categoria": "Accesorios",
+        "id": 2,
+        "envio": true
+      },
+      {
+        "nombre": "Consola Mezcladora SKP",
+        "foto": "img/CONSOLAMEZCLADORASKP.jpg",
+        "detalles": "Saepe enim ipsa facilis velit quidem voluptatibus totam dicta",
+        "precio": 985,
+        "stock": 4,
+        "marca": "SKP",
+        "categoria": "Consolas",
+        "id": 3,
+        "envio": false
+      },
+      {
+        "nombre": "Amplificador Valvular Marshall 20 watts",
+        "detalles": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "foto": "img/MARSHALLAMPLIFICADORVALVULAR20WATTS.jpg",
+        "precio": 678,
+        "stock": 7,
+        "marca": "Marshall",
+        "categoria": "Amplificadores",
+        "id": 4,
+        "envio": true
+      },
+      {
+        "nombre": "Pedal Delay Mini Core Nux",
+        "detalles": "Facere molestiae odio neque rerum provident voluptas",
+        "foto": "img/PEDALDELAYMINICORENUX.jpg",
+        "precio": 1200,
+        "stock": 4,
+        "marca": "NUX",
+        "categoria": "Pedales",
+        "id": 5,
+        "envio": true
+      }
+    ],
+    [
+      {
+        "id": 6,
+        "nombre": "Piano Electrico Medeli 3 pedales",
+        "precio": 332.22,
+        "stock": 4,
+        "marca": "Medeli",
+        "categoria": "Pianos",
+        "detalles": "Natus iure quasi cupiditate provident voluptas!",
+        "foto": "img/PIANOELECTRICOMEDELI3PEDALES.jpg",
+        "envio": true
+      },
+      {
+        "id": 7,
+        "nombre": "Redoblante Mapex Natural",
+        "precio": 333.22,
+        "stock": 2,
+        "marca": "MAPEX",
+        "categoria": "Baterias",
+        "detalles": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "foto": "img/REDOBLANTEMAPEXNATURAL.jpg",
+        "envio": false
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "nombre": "Auriculares Shure Estudio Profesiional",
+        "precio": "2333",
+        "stock": "2",
+        "marca": "Shure",
+        "categoria": "Accesorios",
+        "detalles": "Saepe enim ipsa facilis velit quidem voluptatibus totam dicta",
+        "foto": "img/SHUREAURICULARESTUDIOPROFESIONAL.jpg",
+        "envio": true
+      },
+      {
+        "id": 9,
+        "nombre": "Guitarra Electrica Sunburst Vintage",
+        "precio": "250000",
+        "stock": "30",
+        "marca": "Sunburst",
+        "categoria": "Guitarras",
+        "detalles": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "foto": "img/VINTAGEGUITARRAELECTRICASUNBURST.jpg",
+        "envio": true
+      },
+      {
+        "id": 10,
+        "nombre": "Platillo Zildjian FXS 10",
+        "precio": "90000",
+        "stock": "50",
+        "marca": "Zildjian",
+        "categoria": "Baterias",
+        "detalles": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "foto": "img/ZILDJIANFXS10PLATILLO10.jpg",
+        "envio": true
+      }
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+@use '../utils/variables';
+
+h2{
+    color: variables.$color-fuente-1;
+    
+}
+
+form{
+    padding-left:2em;
+}
+
+label{
+    color: variables.$color-fuente-2;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+button{
+    margin-bottom: 1em;;
+}

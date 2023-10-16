@@ -1,0 +1,6 @@
+@use "../utils/variables";
+
+h1{
+    color: variables.$color-fuente-2;
+    padding: 1em;
+}

@@ -1,0 +1,54 @@
+@use '../utils/variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Bebas+Neue&family=Fira+Sans:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300;500&display=swap');
+
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    
+    
+
+    &__nav-list { /* .nav-bar__nav-list */
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        
+        
+
+        @media (max-width: 768px) {
+            & {
+                flex-direction: column;
+            }
+        }
+    }
+
+    &__nav-item {
+        text-align: center;
+        
+    }
+
+    &__nav-link {
+        display: block;
+        width:120px;
+        margin-top: 25px;
+        font-family:'Ysabeau SC', sans-serif;;
+        background-color: variables.$color-fondo-opacity;
+        color: variables.$color-fuente-1;
+        font-size: large;
+        font-weight: bold;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        border: solid 2px variables.$color-fuente-1;
+        border-radius: 3px;
+        box-shadow: variables.$box-shadow-1;
+    }
+
+    @media (max-width: 768px) {
+        & {
+            display: none;
+        }
+    }
+}

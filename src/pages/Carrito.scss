@@ -1,0 +1,11 @@
+@use "../utils/variables";
+
+
+tr{
+    color: variables.$color-fuente-2;
+    margin-left: 5px;
+}
+
+td{
+    color: variables.$color-fuente-1; 
+}

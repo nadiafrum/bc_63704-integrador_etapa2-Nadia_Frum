@@ -1,0 +1,32 @@
+@use '../utils/variables';
+
+html{
+    background-color: variables.$color-fondo;
+}
+
+.section-cards {
+    background-color: variables.$color-fondo;
+    padding: 2em;
+    border-bottom: solid 3px variables.$color-fuente-1;
+
+    &__header {
+        font-family: 'Ysabeau SC', sans-serif;
+        text-align: center;
+        color: variables.$color-fuente-2;
+        font-size: xx-large;
+    
+    }
+
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+
+main p{
+    margin-bottom: 10px; 
+}

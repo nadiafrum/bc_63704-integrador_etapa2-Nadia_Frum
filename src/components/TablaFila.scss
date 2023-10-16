@@ -1,0 +1,20 @@
+@use '../utils/variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Bebas+Neue&family=Fira+Sans:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300;500&display=swap');
+
+
+.img-row {
+    width: 50px;
+}
+
+td{
+    color: variables.$color-fuente-1
+}
+
+button{
+    margin-left: 5px;
+    background-color: variables.$color-fuente-2;
+    padding: 2px;
+}

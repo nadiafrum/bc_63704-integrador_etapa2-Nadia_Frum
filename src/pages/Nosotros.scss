@@ -1,0 +1,23 @@
+@use "../utils/variables";
+
+  .section-nosotros{
+    background-color: variables.$color-fondo;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    border-bottom: solid 2px variables.$color-fuente-1;
+
+
+    &__title{
+        color: variables.$color-fuente-2;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 0,5em;
+    }
+
+    &__p{
+        color: variables.$color-fuente-1;
+        font-family: "Bacasime Antique", serif;
+        font-size: large;
+        padding-bottom: 2em;;
+    }
+  }
